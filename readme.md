@@ -42,4 +42,9 @@ portfolio-website-using-Bootstrap/
 │   ├── project2.jpg      # Project 2 image
 ├── index.html            # Main HTML file
 ├── style.css             # Custom styles
-├── README.md             
+├── README.md
+
+## Live Demo
+
+You can view the live demo of this portfolio website here: [Live Demo](https://meghanasrividya.github.io/Portfolio_Website_using_Bootstrap)
+
