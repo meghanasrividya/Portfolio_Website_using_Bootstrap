@@ -35,7 +35,7 @@ This is a simple, responsive portfolio website built with **HTML**, **CSS**, and
 ## Folder Structure
 
 ```plaintext
-portfolio-website/
+portfolio-website-using-Bootstrap/
 ├── images/
 │   ├── Meghana Photo.jpg  # Profile picture
 │   ├── project1.jpg      # Project 1 image
