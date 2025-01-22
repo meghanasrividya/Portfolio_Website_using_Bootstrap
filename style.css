@@ -1,77 +1,214 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ECF0F1; /* Light gray background */
-    color: #2C3E50; /* Dark navy text */
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
 }
 
+/* Header with Gradient Background */
 header {
-    background-color: #2C3E50; /* Dark navy */
-    color: #FFFFFF; /* White text */
+    background: linear-gradient(135deg, #007bff, #6f42c1); /* Gradient background */
+    color: white;
 }
 
-header h1 {
-    font-size: 2.5rem;
+.navbar-nav .nav-link {
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
 
-nav .nav-link {
-    color: #F1C40F; /* Gold accents */
-    font-weight: bold;
-}
-
-nav .nav-link:hover {
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Change color on hover */
     text-decoration: underline;
 }
 
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin-bottom: 0;
+    color: #333;
+}
+
+footer .btn-link {
+    color: #007bff;
+    margin: 0 10px;
+}
+
+footer .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Form Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Section Padding */
 section {
     padding: 60px 0;
 }
 
-#about {
-    background-color: #FFFFFF; /* White background */
-}
-
-#projects {
-    background-color: #2C3E50; /* Dark navy */
-    color: #FFFFFF; /* White text */
-}
-
-.card {
-    background-color: #FFFFFF; /* White background for cards */
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card h5 {
-    color: #2C3E50; /* Dark navy */
-}
-
-#contact {
-    background-color: #F1C40F; /* Gold background */
-    color: #2C3E50; /* Dark navy text */
-}
-
-button {
-    background-color: #F1C40F; /* Gold button */
-    color: #2C3E50; /* Dark navy text */
-    border: none;
-    padding: 10px 20px;
+/* Styling for the Card Text to ensure description visibility */
+.card-body {
+    color: #333;
     font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    line-height: 1.5;
 }
 
-button:hover {
-    background-color: #D4AC0D; /* Slightly darker gold on hover */
+/* Improve card image layout */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
+/* Project Title Styling */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}<style>
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global background gradient */
+body {
+    background: linear-gradient(to right, #f7c6b1, #6f42c1); /* Light pink to purple gradient */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header with Gradient Background */
+header {
+    background: linear-gradient(135deg, #007bff, #6f42c1); /* Gradient background */
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Change color on hover */
+    text-decoration: underline;
+}
+
+/* Footer Styling */
 footer {
-    background-color: #2C3E50; /* Dark navy */
-    color: #FFFFFF; /* White text */
-    text-align: center;
+    background-color: #343a40;
     padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.rounded-circle {
-    border: 4px solid #F1C40F; /* Gold border for profile picture */
+footer p {
+    margin-bottom: 0;
+    color: #f8f9fa;
+}
+
+footer .btn-link {
+    color: #007bff;
+    margin: 0 10px;
+}
+
+footer .btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Form Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Section Padding */
+section {
+    padding: 60px 0;
+}
+
+/* Styling for the Card Text to ensure description visibility */
+.card-body {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Improve card image layout */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Project Title Styling */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* About Section Styling */
+#about {
+    background-color: #f8f9fa;
+}
+
+/* Profile image border */
+.profile-img {
+    border: 8px solid #6f42c1; /* Outer purple border */
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Soft outer glow effect */
+}
+
+/* Smooth scrolling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #007bff;
 }
